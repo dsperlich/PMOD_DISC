@@ -228,8 +228,8 @@
     (path "/353992d3-7391-40d6-8254-98ae524e0c32/9e267c99-646a-4778-a862-96c6cd07387d"
       (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
     )
-    (path "/353992d3-7391-40d6-8254-98ae524e0c32/efcc0dbb-9efa-4689-a865-557c5d5bad4b"
-      (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
+    (path "/353992d3-7391-40d6-8254-98ae524e0c32/b468fad3-974d-4688-b948-b5913b86063c"
+      (reference "#PWR0146") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/353992d3-7391-40d6-8254-98ae524e0c32/f84cb4ba-15e4-43a2-aeaa-49f26eeb0212"
       (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
@@ -738,11 +738,17 @@
     (path "/16d10e30-a366-40df-96c0-45774b185017/738055f0-a39d-4fee-bc37-e3d6dd73af29"
       (reference "R57") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/353992d3-7391-40d6-8254-98ae524e0c32/dc6d546f-7208-4cf5-a8d0-59ab98625d20"
+      (reference "R58") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/d20f563d-99b4-4640-ba70-6d87c0ace126/e41c7cae-677e-4bc7-9257-49d93408e5f5"
       (reference "RV1") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
     )
     (path "/16d10e30-a366-40df-96c0-45774b185017/e41c7cae-677e-4bc7-9257-49d93408e5f5"
       (reference "RV2") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
+    )
+    (path "/353992d3-7391-40d6-8254-98ae524e0c32/31c1c22d-9787-482c-81ae-8782a919a293"
+      (reference "SW1") (unit 1) (value "SW_Push_Dual") (footprint "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile")
     )
     (path "/d20f563d-99b4-4640-ba70-6d87c0ace126/4c084f7d-4d69-4a91-a31f-99a7dca5ddba"
       (reference "U1") (unit 1) (value "LM7171xIM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
